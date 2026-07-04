@@ -1,0 +1,301 @@
+merchant_id,merchant_name,category,country
+1,Salesforce,Cloud Infrastructure,US
+2,Uber,Travel,US
+3,Amazon,Professional Services,DE
+4,Slack,Advertising,JP
+5,Microsoft,Cloud Infrastructure,GB
+6,Google Cloud,Transportation,US
+7,Google Cloud,Advertising,JP
+8,AWS,Cloud Infrastructure,US
+9,Slack,Software,DE
+10,Uber,Office Supplies,US
+11,Salesforce,Travel,US
+12,Slack,Meals,US
+13,Marriott,Meals,US
+14,Duffy-Wilkerson,Software,CA
+15,Smith Inc,Transportation,US
+16,"Holland, Sims and Meadows",Travel,US
+17,Gonzalez-Haynes,Transportation,US
+18,Williams PLC,Travel,CA
+19,Burke-Hernandez,Software,US
+20,Jackson-Bradley,Travel,US
+21,Higgins Group,Office Supplies,US
+22,Wilcox-Snyder,Transportation,US
+23,Reeves and Sons,Software,US
+24,Roberts-Snyder,Office Supplies,US
+25,Reynolds and Sons,Travel,US
+26,"Lewis, Holloway and Acosta",Software,DE
+27,Barnes Group,Travel,GB
+28,Johnson LLC,Transportation,US
+29,Williamson and Sons,Software,JP
+30,Aguilar-Holland,Travel,US
+31,Smith and Sons,Transportation,US
+32,Mccann-Sanders,Office Supplies,US
+33,Reeves Ltd,Professional Services,US
+34,Fitzgerald-Scott,Office Supplies,US
+35,Hawkins Inc,Travel,US
+36,Galvan-Ruiz,Software,US
+37,Barajas-Crosby,Meals,US
+38,"Mckinney, Pacheco and Smith",Office Supplies,US
+39,"Harvey, Turner and Foster",Office Supplies,US
+40,Anderson-Mcclain,Transportation,US
+41,Carpenter LLC,Cloud Infrastructure,US
+42,Gordon LLC,Meals,US
+43,Anderson-Stewart,Travel,US
+44,"Hamilton, Green and Edwards",Professional Services,GB
+45,Porter LLC,Software,US
+46,"Ward, Jordan and Orr",Cloud Infrastructure,US
+47,Austin-Juarez,Travel,US
+48,Black-Graham,Advertising,US
+49,Stewart Group,Professional Services,US
+50,Peters Ltd,Office Supplies,US
+51,"Yates, Brown and Hernandez",Advertising,US
+52,White Group,Office Supplies,US
+53,Martin-Mcdonald,Office Supplies,US
+54,Carney Group,Advertising,US
+55,Alexander Ltd,Professional Services,US
+56,"Washington, Vasquez and Singleton",Transportation,US
+57,Martinez Inc,Advertising,US
+58,Oneill and Sons,Travel,US
+59,Brady LLC,Cloud Infrastructure,US
+60,"Macdonald, Willis and Silva",Cloud Infrastructure,US
+61,Fox PLC,Advertising,US
+62,Butler Inc,Travel,US
+63,Tate Ltd,Transportation,GB
+64,Clay Inc,Cloud Infrastructure,US
+65,Maldonado-Becker,Travel,GB
+66,Brooks-Hickman,Transportation,US
+67,Hood and Sons,Travel,US
+68,Miller Ltd,Office Supplies,US
+69,"Castillo, Fuller and Adams",Cloud Infrastructure,US
+70,"Smith, Booker and Douglas",Transportation,US
+71,Nguyen-Dennis,Cloud Infrastructure,US
+72,"Meadows, Robles and Anderson",Office Supplies,US
+73,Solis LLC,Advertising,US
+74,Yates-Manning,Office Supplies,CA
+75,"Crane, James and Ross",Cloud Infrastructure,DE
+76,Allen Group,Cloud Infrastructure,US
+77,Smith and Sons,Professional Services,US
+78,Price Group,Transportation,US
+79,Holland-Best,Advertising,US
+80,Martinez Group,Office Supplies,US
+81,Fitzgerald-Dorsey,Transportation,JP
+82,"Munoz, Howard and Davis",Software,US
+83,Hunt-Burns,Transportation,US
+84,Alvarez-Hart,Software,US
+85,Davis-Henderson,Advertising,CA
+86,Austin-Hamilton,Office Supplies,US
+87,Davis-Palmer,Office Supplies,US
+88,Rhodes-Holland,Travel,JP
+89,"Moore, Simpson and Soto",Cloud Infrastructure,US
+90,"Miller, Mcdonald and Miller",Meals,GB
+91,Evans-Joyce,Professional Services,US
+92,"Leach, Skinner and Mills",Transportation,CA
+93,Carroll-Arnold,Advertising,US
+94,Palmer PLC,Meals,US
+95,Gutierrez-Marshall,Transportation,GB
+96,"Carroll, King and Scott",Meals,US
+97,Mack Inc,Advertising,US
+98,Yang Group,Office Supplies,US
+99,Hartman Group,Advertising,US
+100,Miller Ltd,Transportation,US
+101,Edwards-Ramsey,Meals,US
+102,"Cole, Morton and Peterson",Cloud Infrastructure,US
+103,Clark Inc,Professional Services,US
+104,"Hendrix, Green and Nunez",Professional Services,US
+105,Ferguson-Smith,Cloud Infrastructure,US
+106,Smith Ltd,Cloud Infrastructure,CA
+107,Stevens-Sullivan,Office Supplies,GB
+108,"Church, Guzman and Tucker",Transportation,GB
+109,"Li, Jensen and Vazquez",Software,US
+110,"Leonard, Ballard and Miller",Advertising,US
+111,Smith Inc,Professional Services,US
+112,Horton and Sons,Cloud Infrastructure,US
+113,Clark Ltd,Advertising,US
+114,Santos Group,Professional Services,US
+115,"Garrison, Ryan and Miller",Cloud Infrastructure,US
+116,Hernandez-Henderson,Transportation,DE
+117,Martin and Sons,Professional Services,US
+118,"Park, Maynard and Ruiz",Office Supplies,US
+119,Richards-Harris,Software,US
+120,"Gallegos, Myers and Cook",Software,US
+121,Mccoy Ltd,Cloud Infrastructure,GB
+122,Petty-Allison,Professional Services,US
+123,"Lane, Simon and Duarte",Office Supplies,US
+124,Freeman Group,Travel,US
+125,"Garza, Carr and Gregory",Advertising,US
+126,Hall-Brown,Advertising,US
+127,Henderson LLC,Meals,CA
+128,"Brown, Orozco and Butler",Office Supplies,CA
+129,Wilson-Dean,Professional Services,CA
+130,"Reed, Terry and Smith",Transportation,US
+131,Barber-Harrison,Transportation,GB
+132,Hall-Robinson,Meals,US
+133,"Morgan, Guzman and Kirby",Cloud Infrastructure,US
+134,"Mcdonald, Ware and Sharp",Professional Services,US
+135,Moyer-Whitaker,Meals,US
+136,"Delgado, Ward and Kennedy",Software,US
+137,Howell LLC,Advertising,US
+138,"Curry, Estrada and Anderson",Professional Services,US
+139,Moore Group,Meals,US
+140,Leon Group,Software,US
+141,Young-Hawkins,Office Supplies,GB
+142,Howard LLC,Meals,DE
+143,Rhodes-Thompson,Cloud Infrastructure,GB
+144,"Johnson, Brown and Jordan",Cloud Infrastructure,US
+145,"Perez, Hoffman and Tucker",Cloud Infrastructure,US
+146,Glover-Hammond,Professional Services,US
+147,"Adams, Hernandez and Vaughn",Transportation,US
+148,"Munoz, Garcia and Williams",Transportation,US
+149,Lloyd-Estes,Advertising,US
+150,Villegas PLC,Meals,US
+151,"Casey, Meza and Colon",Office Supplies,JP
+152,Romero and Sons,Meals,US
+153,"Wilson, Harris and Ward",Advertising,US
+154,"Carter, Alexander and Hunter",Software,US
+155,"Harrell, Moore and Cox",Advertising,DE
+156,Martinez and Sons,Cloud Infrastructure,CA
+157,Montes-Hammond,Professional Services,CA
+158,Sanchez Group,Software,GB
+159,Mitchell-Jackson,Professional Services,US
+160,Watson-Fischer,Cloud Infrastructure,US
+161,Soto-Sanchez,Travel,US
+162,"Fisher, Perez and Pham",Advertising,US
+163,Hardin-Villanueva,Advertising,US
+164,"Norton, Cox and Johnson",Office Supplies,US
+165,Carrillo Ltd,Meals,DE
+166,"Acevedo, Miller and Edwards",Software,JP
+167,Hamilton Group,Transportation,CA
+168,Keller Ltd,Professional Services,CA
+169,Orr Inc,Software,US
+170,"Whitney, Lloyd and Liu",Office Supplies,US
+171,Barnes-Blackwell,Office Supplies,US
+172,"Spencer, Torres and Newton",Professional Services,US
+173,Smith-Ramirez,Transportation,US
+174,"Bishop, Thomas and Powell",Meals,US
+175,"Harris, Stephens and Kramer",Professional Services,DE
+176,"Ramos, Reed and Cain",Professional Services,US
+177,"Sullivan, Gonzalez and Turner",Cloud Infrastructure,US
+178,Medina Group,Transportation,US
+179,"Higgins, Hobbs and Meyer",Meals,US
+180,"Campbell, Davis and Arnold",Advertising,US
+181,"Peterson, Reid and Johnson",Cloud Infrastructure,US
+182,"Vargas, Allen and Schroeder",Travel,CA
+183,"Henderson, Wagner and Dennis",Transportation,US
+184,Green-Romero,Meals,US
+185,Williams Ltd,Office Supplies,US
+186,West PLC,Cloud Infrastructure,US
+187,"Smith, Morgan and Young",Meals,JP
+188,"Zhang, Cunningham and Kline",Software,US
+189,"Wade, Richard and Hall",Professional Services,JP
+190,Mitchell-Glover,Travel,US
+191,"Armstrong, Taylor and Gray",Advertising,JP
+192,"Wright, Murphy and Aguilar",Professional Services,US
+193,Gibson-Thomas,Software,US
+194,Poole-Miller,Software,US
+195,Coleman and Sons,Travel,US
+196,Lewis-Miller,Advertising,US
+197,"Fox, Chapman and Stone",Office Supplies,US
+198,Wiggins-Silva,Cloud Infrastructure,US
+199,"Henderson, Alexander and Galvan",Transportation,US
+200,Dennis-Butler,Advertising,US
+201,Thomas and Sons,Transportation,CA
+202,Dawson-Anderson,Meals,US
+203,"Palmer, Rice and Benson",Software,US
+204,Kennedy-Francis,Meals,US
+205,"Wood, Crane and Guzman",Office Supplies,GB
+206,Rodriguez-Wood,Meals,US
+207,Williams-Hernandez,Advertising,US
+208,Torres-Brooks,Meals,JP
+209,Tucker-Moody,Office Supplies,US
+210,Bowers Group,Office Supplies,US
+211,Zuniga LLC,Office Supplies,US
+212,Lewis-Fuentes,Advertising,US
+213,Smith-Kelley,Office Supplies,US
+214,Harrell Group,Software,US
+215,Berry-Knight,Professional Services,US
+216,Harrington-Alvarez,Office Supplies,CA
+217,"Bass, Anderson and Taylor",Meals,US
+218,"Murray, Cole and Cole",Cloud Infrastructure,US
+219,"Nguyen, Marsh and Beck",Meals,US
+220,Hughes-Mccullough,Cloud Infrastructure,US
+221,Weaver-Rubio,Meals,US
+222,Fitzgerald-Brewer,Advertising,US
+223,Mann PLC,Meals,DE
+224,"Hogan, Zimmerman and Hoffman",Advertising,GB
+225,Schneider Inc,Advertising,US
+226,Friedman PLC,Office Supplies,US
+227,"Todd, Bernard and Boyd",Software,US
+228,Shaw-Smith,Cloud Infrastructure,US
+229,"Mayer, White and Smith",Office Supplies,US
+230,Sanchez Ltd,Office Supplies,US
+231,"Wallace, Roman and Lawson",Professional Services,US
+232,Chapman-Henry,Advertising,CA
+233,Morgan and Sons,Advertising,JP
+234,Johnson-Rice,Cloud Infrastructure,US
+235,Scott-Wilson,Meals,US
+236,Weaver LLC,Meals,US
+237,White Inc,Transportation,US
+238,Parker Group,Office Supplies,US
+239,"Jackson, Mendez and Nguyen",Transportation,US
+240,Reeves LLC,Travel,US
+241,Garcia-Thomas,Travel,US
+242,Scott-David,Transportation,US
+243,Williams and Sons,Meals,US
+244,"Willis, Vasquez and Goodwin",Travel,US
+245,Avery-Adams,Professional Services,DE
+246,Marshall-Russell,Meals,US
+247,Johnson-Schultz,Advertising,US
+248,Adams PLC,Office Supplies,US
+249,"Garcia, Hines and Pearson",Software,US
+250,Torres Group,Office Supplies,US
+251,Miller-Fields,Transportation,US
+252,Patton and Sons,Meals,US
+253,Fernandez-Jackson,Transportation,CA
+254,Medina Group,Professional Services,US
+255,"Hayes, Smith and Marshall",Meals,US
+256,"Roberts, Stanton and Smith",Office Supplies,US
+257,Nelson-King,Professional Services,US
+258,"James, Bell and Chen",Professional Services,US
+259,"Pittman, Campbell and Martin",Professional Services,US
+260,"Hart, Turner and Foster",Cloud Infrastructure,US
+261,Rivas Ltd,Meals,US
+262,"Lutz, Johns and Clark",Travel,US
+263,"Bernard, Flores and Fleming",Travel,US
+264,Reid-Petty,Meals,US
+265,"Chavez, Sanchez and Bird",Meals,US
+266,Clark-Haley,Cloud Infrastructure,DE
+267,Smith-Holt,Travel,US
+268,"Nielsen, Lynch and Smith",Meals,US
+269,Chambers Group,Meals,US
+270,"Woodard, Warner and Farmer",Transportation,US
+271,"Miller, Mcdowell and Curtis",Cloud Infrastructure,US
+272,"Johnson, Collier and Powers",Cloud Infrastructure,GB
+273,"Martinez, Stanton and Bennett",Office Supplies,US
+274,"Howard, Thompson and Tate",Cloud Infrastructure,US
+275,"Terrell, Martinez and Wood",Software,US
+276,Wallace and Sons,Travel,US
+277,"Smith, Campbell and Morse",Office Supplies,US
+278,Lee-Velasquez,Software,US
+279,"Turner, Robbins and Young",Meals,US
+280,Coffey-Johnson,Transportation,US
+281,Conway-Mann,Transportation,US
+282,Smith Ltd,Meals,US
+283,Rodriguez-Ramirez,Office Supplies,US
+284,"Snyder, Arnold and Keller",Cloud Infrastructure,US
+285,"Chambers, Morrison and Thompson",Professional Services,US
+286,"Anderson, Brown and Green",Transportation,US
+287,"Foley, Ibarra and Daniel",Professional Services,US
+288,Lee-Gregory,Meals,US
+289,"Byrd, Mendez and Becker",Professional Services,US
+290,Smith-Simmons,Advertising,US
+291,"Hahn, Williams and Mcmillan",Office Supplies,US
+292,Richard-Russell,Software,CA
+293,Frazier Group,Office Supplies,US
+294,Ward-Blake,Travel,US
+295,"Walker, Ramirez and Fisher",Cloud Infrastructure,US
+296,Stewart-Myers,Cloud Infrastructure,US
+297,Miller-Armstrong,Office Supplies,US
+298,Mooney and Sons,Meals,US
+299,"Coleman, Jones and Wright",Meals,CA
+300,Murphy Inc,Advertising,US
