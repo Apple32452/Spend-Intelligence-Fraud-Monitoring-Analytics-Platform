@@ -8,6 +8,52 @@ WITH employee_transaction_stats AS (
     GROUP BY employee_id
 ),
 
+ordered_transactions AS (
+    SELECT
+        t.transaction_id,
+        t.employee_id,
+        t.transaction_timestamp,
+        LAG(t.transaction_timestamp) OVER (
+            PARTITION BY t.employee_id
+            ORDER BY t.transaction_timestamp
+        ) AS previous_transaction_timestamp
+    FROM transactions AS t
+    WHERE t.transaction_status = 'approved'
+),
+
+burst_boundaries AS (
+    SELECT
+        *,
+        CASE
+            WHEN previous_transaction_timestamp IS NULL THEN 1
+            WHEN transaction_timestamp
+                 > previous_transaction_timestamp + INTERVAL 10 MINUTE
+            THEN 1
+            ELSE 0
+        END AS starts_new_burst
+    FROM ordered_transactions
+),
+
+burst_groups AS (
+    SELECT
+        *,
+        SUM(starts_new_burst) OVER (
+            PARTITION BY employee_id
+            ORDER BY transaction_timestamp
+            ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+        ) AS burst_id
+    FROM burst_boundaries
+),
+
+burst_sizes AS (
+    SELECT
+        employee_id,
+        burst_id,
+        COUNT(*) AS transactions_in_burst
+    FROM burst_groups
+    GROUP BY 1, 2
+),
+
 transaction_features AS (
     SELECT
         t.transaction_id,
@@ -23,12 +69,7 @@ transaction_features AS (
         t.merchant_country,
         ets.employee_avg_amount,
         ets.employee_amount_stddev,
-        COUNT(*) OVER (
-            PARTITION BY t.employee_id
-            ORDER BY t.transaction_timestamp
-            RANGE BETWEEN INTERVAL 10 MINUTE PRECEDING
-                  AND CURRENT ROW
-        ) AS transactions_last_10_minutes
+        bs.transactions_in_burst
     FROM transactions AS t
     JOIN employees AS e
         ON t.employee_id = e.employee_id
@@ -36,6 +77,11 @@ transaction_features AS (
         ON t.merchant_id = m.merchant_id
     JOIN employee_transaction_stats AS ets
         ON t.employee_id = ets.employee_id
+    JOIN burst_groups AS bg
+        ON t.transaction_id = bg.transaction_id
+    JOIN burst_sizes AS bs
+        ON bg.employee_id = bs.employee_id
+        AND bg.burst_id = bs.burst_id
     WHERE t.transaction_status = 'approved'
 ),
 
@@ -49,13 +95,14 @@ fraud_alerts AS (
 
         CASE
             WHEN employee_amount_stddev > 0
-             AND amount > employee_avg_amount + 3 * employee_amount_stddev
+             AND amount > employee_avg_amount
+                 + 3 * employee_amount_stddev
             THEN 1
             ELSE 0
         END AS unusual_amount_flag,
 
         CASE
-            WHEN transactions_last_10_minutes >= 4 THEN 1
+            WHEN transactions_in_burst >= 3 THEN 1
             ELSE 0
         END AS velocity_flag,
 
@@ -81,7 +128,7 @@ SELECT
     merchant_country,
     ROUND(employee_avg_amount, 2) AS employee_avg_amount,
     ROUND(employee_amount_stddev, 2) AS employee_amount_stddev,
-    transactions_last_10_minutes,
+    transactions_in_burst,
     large_transaction_flag,
     unusual_amount_flag,
     velocity_flag,

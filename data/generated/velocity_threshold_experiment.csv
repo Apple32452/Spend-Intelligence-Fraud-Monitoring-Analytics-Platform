@@ -1,0 +1,7 @@
+window_minutes,minimum_transactions,true_positive,false_positive,false_negative,true_negative,total_alerts,precision,recall,false_positive_rate
+10,3,80,0,80,45932,80,1.0,0.5,0.0
+15,3,80,0,80,45932,80,1.0,0.5,0.0
+10,4,40,0,120,45932,40,1.0,0.25,0.0
+15,4,40,0,120,45932,40,1.0,0.25,0.0
+20,4,40,0,120,45932,40,1.0,0.25,0.0
+10,5,0,0,160,45932,0,0.0,0.0,0.0

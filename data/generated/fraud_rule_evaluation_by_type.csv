@@ -1,0 +1,4 @@
+fraud_type,fraud_transactions,detected_transactions,average_amount,fraud_dollars,recall
+international_purchase,300,300,1901.3237,570397.11,1.0
+large_amount,500,500,6465.812019999999,3232906.01,1.0
+velocity_attack,160,160,1960.7293125,313716.69,1.0

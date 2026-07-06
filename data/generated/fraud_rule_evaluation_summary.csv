@@ -1,0 +1,2 @@
+approved_transactions_scored,ground_truth_fraud_transactions,alerts_generated,true_positive,false_positive,true_negative,false_negative,precision,recall,false_positive_rate,alert_rate,fraud_dollars,fraud_dollars_captured,fraud_dollar_capture_rate
+46092,960,1715,960,755,44377,0,0.5598,1.0,0.0167,0.0372,4117019.81,4117019.81,1.0
